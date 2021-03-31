@@ -6,3 +6,4 @@ The goal of the script is to take a series of un-annotated PDFs, generate the re
 
 Because these are for un-annotated PDFs, you'll need to do the annotation step via the UI to generate the labels and associated annotated document sections, see https://cloud.google.com/natural-language/automl/docs/datasets#label-items for more information.
 
+This is designed to run in an AI platform notebook with a service account that has permissions to the GCS bucket that contains the files you wish to annotate.
